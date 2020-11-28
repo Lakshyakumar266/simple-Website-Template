@@ -368,3 +368,16 @@ ul li a {
 .mapboxgl-marker svg g g:nth-child(5) circle{
   fill: rgb(129, 9, 9);
 }
+.signature img{
+  width: 60px;
+  height: 60px;
+  transform: rotateZ(-70deg);
+}
+.signature  {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  position: absolute;
+  z-index: 99999999999999;
+  margin-top: 290px;
+  right: 10px; 
+}
